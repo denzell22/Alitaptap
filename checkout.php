@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'connect.php';
 
 session_start();
 
@@ -58,12 +58,12 @@ if(isset($_POST['order'])){ //checkout fields to be used in checout form
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
    
-<?php include 'components/user_header.php'; ?>
+<?php include 'user_header.php'; ?>
 
 <section class="checkout-orders">
 
@@ -160,9 +160,9 @@ if(isset($_POST['order'])){ //checkout fields to be used in checout form
 
    <!-- javascript -->
 
-<?php include 'components/footer.php'; ?>
+<?php include 'footer.php'; ?>
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
