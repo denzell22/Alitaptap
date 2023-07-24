@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'connect.php';
 
 session_start();
 
@@ -11,7 +11,7 @@ if(isset($_SESSION['user_id'])){
    header('location:user_login.php');
 };
 
-include 'components/wishlist_cart.php';
+include 'wishlist_cart.php';
 
 //deleting items from wishlist
 if(isset($_POST['delete'])){ 
@@ -39,12 +39,12 @@ if(isset($_GET['delete_all'])){
    <!-- linking to stylesheets  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
    
-<?php include 'components/user_header.php'; ?>
+<?php include 'user_header.php'; ?>
 
 <section class="products">
 
@@ -104,10 +104,10 @@ if(isset($_GET['delete_all'])){
 
 
    <!-- footer -->
-<?php include 'components/footer.php'; ?>
+<?php include 'footer.php'; ?>
 
    <!-- javasript -->
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
