@@ -1,7 +1,7 @@
    <!-- connecting connect.php -->
 <?php
 
-include '../components/connect.php';
+include '..connect.php';
 
 session_start();
 
@@ -31,12 +31,12 @@ if(isset($_GET['delete'])){
       <!-- linking to stylesheets -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-   <link rel="stylesheet" href="../css/admin_style.css">
+   <link rel="stylesheet" href="..admin_style.css">
 
 </head>
 <body>
 
-<?php include '../components/admin_header.php'; ?>   <!-- connecting to admin_header.php -->
+<?php include '..admin_header.php'; ?>   <!-- connecting to admin_header.php -->
 
 <section class="contacts">
 
