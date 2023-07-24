@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'connect.php';
 
 session_start();
 
@@ -26,12 +26,12 @@ if(isset($_SESSION['user_id'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
    
-<?php include 'components/user_header.php'; ?>
+<?php include 'user_header.php'; ?>
 <div class="about_bg">
 
 <section class="about">
@@ -52,8 +52,8 @@ if(isset($_SESSION['user_id'])){
    <div class="row_me">
 
       <div class="image_me">
-         <img src="images/about-ralph.jpg" height="550px" style="float:right; padding-left: 1rem;" alt="">
-         <img src="images/about-nath.jpg" height="550px" style="float:right; padding-left: 1rem;" alt="">
+         <img src="about-ralph.jpg" height="550px" style="float:right; padding-left: 1rem;" alt="">
+         <img src="about-nath.jpg" height="550px" style="float:right; padding-left: 1rem;" alt="">
       </div>
 
       <div class="content_me">
