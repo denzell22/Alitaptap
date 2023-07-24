@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'connect.php';
 
 session_start();
 
@@ -43,12 +43,12 @@ if(isset($_POST['submit'])){ //checking if username and password entered are cor
    <!-- linking to stylesheets  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
    
-<?php include 'components/user_header.php'; ?>
+<?php include 'user_header.php'; ?>
 
 <section class="form-container">   <!-- login form -->
 
@@ -75,10 +75,10 @@ if(isset($_POST['submit'])){ //checking if username and password entered are cor
 
 
    <!-- footer -->
-<?php include 'components/footer.php'; ?>
+<?php include 'footer.php'; ?>
 
    <!-- javascript -->
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
