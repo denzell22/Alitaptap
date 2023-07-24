@@ -16,7 +16,7 @@
    <section class="flex">   <!-- user header -->
 
       <a href="home.php" class="logo">
-      <img src="images/alitaptap_logo-gold.png" alt=""></a>
+      <img src="alitaptap_logo-gold.png" alt=""></a>
 
       <nav class="navbar">   <!-- navbar -->
          <a href="home.php">Home</a>
@@ -56,7 +56,7 @@
             <a href="user_register.php" class="option-btn">Register</a>
             <a href="user_login.php" class="option-btn">Log In</a>
          </div>
-         <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">Log Out</a>    <!-- logging out -->
+         <a href="user_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">Log Out</a>    <!-- logging out -->
          <?php
             }else{
          ?>
