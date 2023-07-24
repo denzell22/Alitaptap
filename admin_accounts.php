@@ -96,7 +96,7 @@ if(isset($_GET['delete'])){
 <!-- javascript referrencing-->
 
 
-<script src="../js/admin_script.js"></script>
+<script src="..admin_script.js"></script>
    
 </body>
 </html>
