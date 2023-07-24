@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'connect.php';
 
 session_start();
 
@@ -46,12 +46,12 @@ if(isset($_POST['update_qty'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
    
-<?php include 'components/user_header.php'; ?>
+<?php include 'user_header.php'; ?>
 
 <section class="products shopping-cart">
 
@@ -112,9 +112,9 @@ if(isset($_POST['update_qty'])){
 
 
    <!-- javascript -->
-<?php include 'components/footer.php'; ?>
+<?php include 'footer.php'; ?>
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
