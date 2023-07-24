@@ -144,12 +144,12 @@ include 'wishlist_cart.php';
 
 
 
-<?php include 'components/footer.php'; ?>   <!-- footer -->
+<?php include 'footer.php'; ?>   <!-- footer -->
 
    <!-- javascript -->
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 <script>
 
