@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'connect.php';
 
 session_start();
 
@@ -10,7 +10,7 @@ if(isset($_SESSION['user_id'])){
    $user_id = '';
 };
 
-include 'components/wishlist_cart.php';
+include 'wishlist_cart.php';
 
 ?>
 
@@ -32,7 +32,7 @@ include 'components/wishlist_cart.php';
 </head>
 <body>
    
-<?php include 'components/user_header.php'; ?>
+<?php include 'user_header.php'; ?>
 
    <!-- Homepage -->
 <div class="home-bg">
@@ -68,23 +68,23 @@ include 'components/wishlist_cart.php';
    <div class="swiper-wrapper">
 
    <a href="category.php?category=laptop" class="swiper-slide slide">
-      <img src="images/necklaces.png" alt="">
+      <img src="necklaces.png" alt="">
       <h3>Necklaces</h3>
    </a>
 
    <a href="category.php?category=tv" class="swiper-slide slide">
-      <img src="images/bracelets.png" alt="">
+      <img src="bracelets.png" alt="">
       <h3>Bracelets</h3>
    </a>
 
    <a href="category.php?category=camera" class="swiper-slide slide">
-      <img src="images/headpieces.jfif" alt="">
+      <img src="headpieces.jfif" alt="">
       <h3>Head Pieces</h3>
 
    </a>
 
    <a href="category.php?category=camera" class="swiper-slide slide">
-      <img src="images/rings.jpg" alt="">
+      <img src="rings.jpg" alt="">
       <h3>Rings</h3>
 
    </a>
