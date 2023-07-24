@@ -1,7 +1,7 @@
    <!-- connecting connect.php and setting up for admin registration functions -->
 <?php
 
-include '../components/connect.php';
+include '..connect.php';
 
 session_start();
 
@@ -50,12 +50,12 @@ if(isset($_POST['submit'])){
       <!-- linking to stylesheets -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-   <link rel="stylesheet" href="../css/admin_style.css">
+   <link rel="stylesheet" href="..admin_style.css">
 
 </head>
 <body>
 
-<?php include '../components/admin_header.php'; ?>   <!-- linking to admin_header.php -->
+<?php include '..admin_header.php'; ?>   <!-- linking to admin_header.php -->
 
 <section class="form-container">   <!-- connecting connect.php and setting up for add product functions -->
 
@@ -80,7 +80,7 @@ if(isset($_POST['submit'])){
 
 
    <!-- javascript -->
-<script src="../js/admin_script.js"></script>
+<script src="..admin_script.js"></script>
    
 </body>
 </html>
