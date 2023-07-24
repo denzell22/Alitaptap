@@ -1,7 +1,7 @@
    <!-- connecting connect.php and setting up for update_product functions -->
 <?php
 
-include '../components/connect.php';
+include '..connect.php';
 
 session_start();
 
@@ -103,7 +103,7 @@ if(isset($_POST['update'])){
 </head>
 <body>
 
-<?php include '../components/admin_header.php'; ?>
+<?php include '..admin_header.php'; ?>
 
 <section class="update-product">
 
@@ -171,7 +171,7 @@ if(isset($_POST['update'])){
 
    <!-- javasccript -->
 
-<script src="../js/admin_script.js"></script>
+<script src="..admin_script.js"></script>
    
 </body>
 </html>
